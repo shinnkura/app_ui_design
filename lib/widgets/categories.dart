@@ -20,10 +20,13 @@ class CategoriesWidget extends StatelessWidget {
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Image.network(
-                    'https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-                    width: 40,
-                    height: 40,
+                  ClipOval(
+                    child: Image.network(
+                      // TODO: 複数の画像を用意し、ランダムに表示する
+                      'https://images.unsplash.com/photo-1685156328947-b0815d09d688?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
+                      width: 40,
+                      height: 40,
+                    ),
                   ),
                   Text(
                     'Coffee',
