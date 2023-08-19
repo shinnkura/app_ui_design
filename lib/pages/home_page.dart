@@ -1,4 +1,5 @@
 import 'package:app_ui_design/widgets/items.dart';
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/categories.dart';
@@ -93,6 +94,34 @@ class HomeScreen extends StatelessWidget {
                 ItemsWidget(),
               ],
             ),
+          ),
+        ],
+      ),
+      bottomNavigationBar: CurvedNavigationBar(
+        backgroundColor: Colors.transparent,
+        onTap: (index) {},
+        height: 70,
+        color: Color(0xFF4C53A5),
+        items: [
+          Icon(
+            Icons.home,
+            size: 30,
+            color: Colors.white,
+          ),
+          Icon(
+            Icons.favorite_border,
+            size: 30,
+            color: Colors.white,
+          ),
+          Icon(
+            Icons.list,
+            size: 30,
+            color: Colors.white,
+          ),
+          Icon(
+            Icons.person_outline,
+            size: 30,
+            color: Colors.white,
           ),
         ],
       ),

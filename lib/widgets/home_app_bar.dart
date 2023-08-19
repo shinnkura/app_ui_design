@@ -41,10 +41,15 @@ class HomeAppBar extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
-            child: Icon(
-              Icons.shopping_bag_outlined,
-              size: 30,
-              color: Color(0xFF4C53A5),
+            child: InkWell(
+              onTap: () {
+                Navigator.pushNamed(context, 'cartPage');
+              },
+              child: Icon(
+                Icons.shopping_bag_outlined,
+                size: 30,
+                color: Color(0xFF4C53A5),
+              ),
             ),
           )
         ],
