@@ -1,11 +1,12 @@
-import 'package:app_ui_design/widgets/item_bottom_nav_bar.dart';
 import 'package:clippy_flutter/clippy_flutter.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 import '../widgets/item_app_bar.dart';
+import '../widgets/item_bottom_nav_bar.dart';
 
+// ignore: must_be_immutable
 class ItemPage extends StatelessWidget {
   ItemPage({super.key});
 
@@ -27,7 +28,7 @@ class ItemPage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.all(15.0),
             child: Image.network(
-              'https://images.unsplash.com/photo-1685156328947-b0815d09d688?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
+              'https://images.unsplash.com/photo-1502123909989-c9d05c43046a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1933&q=80',
             ),
           ),
           Arc(

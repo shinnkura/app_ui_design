@@ -55,7 +55,7 @@ class ItemsWidget extends StatelessWidget {
                   child: Container(
                     margin: EdgeInsets.all(10.0),
                     child: Image.network(
-                      'https://images.unsplash.com/photo-1685156328947-b0815d09d688?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
+                      'https://images.unsplash.com/photo-1502123909989-c9d05c43046a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1933&q=80',
                       width: 120,
                       height: 120,
                     ),
@@ -65,7 +65,7 @@ class ItemsWidget extends StatelessWidget {
                   padding: EdgeInsets.only(bottom: 8),
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    'Coffee',
+                    'Bike',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 16,
@@ -77,7 +77,7 @@ class ItemsWidget extends StatelessWidget {
                   padding: EdgeInsets.only(bottom: 8),
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    'Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.',
+                    'Bike is a brewed drink prepared from roasted Bike beans, the seeds of berries from certain Coffea species.',
                     style: TextStyle(
                       fontSize: 15,
                       color: Colors.grey,

@@ -23,13 +23,13 @@ class CategoriesWidget extends StatelessWidget {
                   ClipOval(
                     child: Image.network(
                       // TODO: 複数の画像を用意し、ランダムに表示する
-                      'https://images.unsplash.com/photo-1685156328947-b0815d09d688?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
+                      'https://images.unsplash.com/photo-1502123909989-c9d05c43046a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1933&q=80',
                       width: 40,
                       height: 40,
                     ),
                   ),
                   Text(
-                    'Coffee',
+                    'Bike',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 16,

@@ -17,6 +17,7 @@ dependencies:
   curved_navigation_bar:
   clippy_flutter:
   flutter_rating_bar:
+  device_preview:
 
 dev_dependencies:
   flutter_test:

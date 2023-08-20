@@ -1,7 +1,7 @@
-import 'package:app_ui_design/widgets/items.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
+import '../widgets/items.dart';
 import '../widgets/categories.dart';
 import '../widgets/home_app_bar.dart';
 
