@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'components/button.dart';
+import 'intro_screen/main.dart';
 
 void main() {
   runApp(
@@ -36,6 +37,7 @@ class MyHome extends StatelessWidget {
       routes: {
         '/': (context) => MyApp(),
         'badges': (context) => BadgesAndCNBApp(),
+        'intro': (context) => IntroApp(),
       },
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,
@@ -75,6 +77,15 @@ class MyApp extends StatelessWidget {
                     title: 'Badges and CNB',
                     onPressed: () {
                       Navigator.of(context).pushNamed('badges');
+                    },
+                    disable: false,
+                  ),
+                  SizedBox(height: 20),
+                  Button(
+                    width: double.infinity,
+                    title: 'Intro Screen',
+                    onPressed: () {
+                      Navigator.of(context).pushNamed('intro');
                     },
                     disable: false,
                   ),
