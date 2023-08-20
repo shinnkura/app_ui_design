@@ -18,6 +18,7 @@ dependencies:
   clippy_flutter:
   flutter_rating_bar:
   device_preview:
+  smooth_page_indicator:
 
 dev_dependencies:
   flutter_test:
