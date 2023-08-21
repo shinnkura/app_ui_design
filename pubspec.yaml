@@ -20,6 +20,9 @@ dependencies:
   device_preview:
   smooth_page_indicator:
   google_nav_bar:
+  animated_splash_screen:
+  page_transition:
+  lottie:
 
 dev_dependencies:
   flutter_test:
