@@ -3,6 +3,7 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
+import 'animated_splash_screen/main.dart';
 import 'components/button.dart';
 import 'intro_screen/main.dart';
 
@@ -38,6 +39,7 @@ class MyHome extends StatelessWidget {
         '/': (context) => MyApp(),
         'badges': (context) => BadgesAndCNBApp(),
         'intro': (context) => IntroApp(),
+        'animatedSplashScreen': (context) => SplashScreen(),
       },
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,
@@ -86,6 +88,15 @@ class MyApp extends StatelessWidget {
                     title: 'Intro Screen',
                     onPressed: () {
                       Navigator.of(context).pushNamed('intro');
+                    },
+                    disable: false,
+                  ),
+                  SizedBox(height: 20),
+                  Button(
+                    width: double.infinity,
+                    title: 'Animated Splash Screen',
+                    onPressed: () {
+                      Navigator.of(context).pushNamed('animatedSplashScreen');
                     },
                     disable: false,
                   ),
