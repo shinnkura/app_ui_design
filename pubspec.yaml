@@ -23,6 +23,7 @@ dependencies:
   animated_splash_screen:
   page_transition:
   lottie:
+  concentric_transition:
 
 dev_dependencies:
   flutter_test:
