@@ -7,6 +7,7 @@ import 'animated_splash_screen/main.dart';
 import 'animation_onboarding_screen/main.dart';
 import 'components/button.dart';
 import 'intro_screen/main.dart';
+import 'movie_card_app/main.dart';
 
 void main() {
   runApp(
@@ -42,6 +43,7 @@ class MyHome extends StatelessWidget {
         'intro': (context) => IntroApp(),
         'animatedSplashScreen': (context) => SplashScreen(),
         'animationOnboarding': (context) => AnimationOnboading(),
+        'movieApp': (context) => ApiCall(),
       },
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,
@@ -112,6 +114,14 @@ class MyApp extends StatelessWidget {
                     disable: false,
                   ),
                   SizedBox(height: 20),
+                  Button(
+                    width: double.infinity,
+                    title: 'Movie App',
+                    onPressed: () {
+                      Navigator.of(context).pushNamed('movieApp');
+                    },
+                    disable: false,
+                  ),
                 ],
               ),
             ),
